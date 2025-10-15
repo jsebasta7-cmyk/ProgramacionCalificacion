@@ -71,7 +71,7 @@ int main() {
         PromAsig[j] /= Estudiantes;
     }
 
-    printf("\n--- Resultados por estudiante ---\n");
+    printf(" Resultados por estudiante ");
     for (i = 0; i < Estudiantes; i++) {
         printf("Estudiante %d: %s\n", i + 1, NombreEst[i]);
         printf("Promedio: %.2f\n", PromEst[i]);
@@ -79,7 +79,7 @@ int main() {
         printf("Nota minima: %.2f\n", NotaMinEst[i]);
     }
 
-    printf("\n--- Resultados por asignatura ---\n");
+    printf("Resultados por asignatura");
     for (j = 0; j < Asignaturas; j++) {
         printf("Asignatura %d: %s\n", j + 1, NombreAsign[j]);
         printf("Promedio: %.2f\n", PromAsig[j]);
